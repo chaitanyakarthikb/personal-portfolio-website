@@ -1,0 +1,238 @@
+/* ===========================================================Global Css=================================================== */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* Hide horizontal overflow */
+  max-width: 100%;  /* Prevent the page from overflowing */
+}
+body{
+  margin: 0;
+  font-family: "Roboto",sans-serif;
+  -webkit-font-smoothing:"Roboto",sans-serif;
+  font-style: normal;
+  /* max-width: fit-content; */
+}
+
+h1,h2,h3,h4,h5,h6,p{
+
+  margin: 0;
+}
+
+:root{
+  --primary:#5e3bee;
+  --heading-color:#282938;
+  --bg-shade:#f5fcff;
+  --github:#e68272;
+  --darkblue:#1c1e53;
+  --black:#000000;
+  --white:#ffffff;
+
+}
+
+.btn{
+  font-family: "Robonto",sans-serif;
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.5s;
+}
+
+
+.btn-outline-primary{
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  /* margin-top: 10px; */
+}
+
+.btn-outline-primary:hover{
+  color: var(--primary);
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+}
+
+
+.btn-primary{
+  color: var(--white);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.btn-primary:hover{
+  color: var(--primary);
+  background-color: var(--white);
+  /* border: 1px solid var(--primary); */
+}
+
+
+.btn-github{
+  color: var(--white);
+  background-color: var(--github);
+  border: var(--github);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(16,24,40,0.95);
+  gap: 16px;
+}
+
+.btn-github:hover{
+  color: var(--github);
+  background-color: var(--white);
+}
+
+
+/* ====================================================Global Css ends============================================== */
+
+
+
+
+
+
+/* ================ Main headings =========== */
+
+/* == heading 1 == */
+h1{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+}
+
+
+/* == heading 2 == */
+h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+
+/* == heading 3 == */
+h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+/* =============== paragraph text large medium and small ======== */
+
+.text-lg{
+  color: var(--darkblue);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.text-md{
+  color: var(--darkblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text-sm{
+  color: var(--black);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+
+
+/* ======================================= Section Titles ============================== */
+/* ==== Skills & About me === */
+
+.section--title{
+  color: var(--heading-color);
+  font-size: 21px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* ==== Portfolio, Testimonial & Contact me ====  */
+.sub--title{
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+
+/* ======================== Section title ends ================================= */
+
+
+
+.hero--section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 133px 85px 133px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background-color: var(--bg-shade);
+  /* max-width: 50vw; */
+  max-width: 100%;
+
+}
+
+
+.hero--section--img{
+  width: 65%;
+  /* background-color:  */
+}
+
+.hero--section--img img{
+  width: 100%;
+  
+}
+
+
+.hero--section--content--box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+ 
+.hero--section--content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}  
+
+
+.hero--section--title{
+  color: var(--heading-color);
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 90px;
+  align-self: stretch;
+
+}
+
+
+.hero--section--title--color{
+  color: var(--primary);
+}
+
+.hero--section--description{
+  color: var(--darkblue);
+  font-size: 24px;
+}
