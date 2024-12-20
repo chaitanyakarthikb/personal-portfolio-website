@@ -282,3 +282,75 @@ a{
 #heading{
   font-size: 30px;
 }
+
+
+/* ============================================ // Skills Section \\ =========================================== */
+
+.skills--section{
+  display: flex;
+  padding: 140px 85px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.skills--section--heading{
+  color: var(--heading-color);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+
+.skills--section--container{
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 42px;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.skills--section--img{
+  width: 60%;
+  /* background-color: white; */
+
+}
+
+.skills--section--img img{
+  width: 100%;
+}
+
+
+.skills--section--card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  background-color: var(--bg-shade);
+  min-height: 250px;
+  border-radius: 5px;
+}
+
+.skills--section--card:hover{
+  border-bottom: solid 4px var(--primary);
+}
+
+.skills--section--title{
+  color: var(--heading-color);
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+
+.skills--section--card--content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}

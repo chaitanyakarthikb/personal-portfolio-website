@@ -1,0 +1,29 @@
+{
+    "skills":[
+        {
+            "id":1,
+            "src":"/images/front-end.png",
+            "title":"Front-end",
+            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+        },
+        {
+            "id":2,
+            "src":"/images/back-end.png",
+            "title":"Back-end",
+            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+        },
+        {
+            "id":3,
+            "src":"/images/java.png",
+            "title":"Java",
+            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+        },
+        {
+            "id":4,
+            "src":"/images/dsa.png",
+            "title":"DSA",
+            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+        }
+    ]
+}
+

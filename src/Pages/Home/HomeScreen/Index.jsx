@@ -4,6 +4,7 @@ import About from "../AboutMe";
 import Testimonials from "../Testimonials";
 import Navbar from "../Navbar";
 import { BrowserRouter ,Routes,Route } from "react-router-dom";
+import MySkills from "../MySkills";
 export default function Index(){
     return (
         <>
@@ -16,6 +17,7 @@ export default function Index(){
                 <Route path="/about" element={<About/>}></Route>
                 <Route path="/testimonials" element={<Testimonials/>}></Route>
             </Routes>
+        <MySkills/>
         
         
         </BrowserRouter>
