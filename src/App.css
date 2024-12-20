@@ -60,14 +60,14 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 .btn-primary{
-  color: var(--white);
-  background-color: var(--primary);
+  color: var(--primary);
+  background-color: var(--white);
   border: 1px solid var(--primary);
 }
 
 .btn-primary:hover{
-  color: var(--primary);
-  background-color: var(--white);
+  color: var(--white);
+  background-color: var(--primary);
   /* border: 1px solid var(--primary); */
 }
 
@@ -235,4 +235,50 @@ h3{
 .hero--section--description{
   color: var(--darkblue);
   font-size: 24px;
+}
+
+
+
+/* ================================================ Navbar ================================= */
+
+.navbar{
+  display: flex;
+  /* background-color: #e68272; */
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+li{
+  list-style: none;
+  
+}
+
+a{
+  text-decoration: none;
+  padding-left: 7px;
+  padding-right: 5px;
+  font-weight: 700;
+  /* font-size: 180px; */
+}
+
+.left{
+  /* background-color: aqua; */
+  width: 25%;
+}
+
+.right{
+  /* background-color: burlywood; */
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#heading{
+  font-size: 30px;
 }
