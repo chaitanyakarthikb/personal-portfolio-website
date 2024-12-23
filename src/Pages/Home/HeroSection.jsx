@@ -2,7 +2,7 @@
 export default function HeroSection() {
   return (
     <>
-      <section className="hero--section">
+      <section id="heroSection" className="hero--section">
         <div className="hero--section--content--box">
           <div className="hero--section--content">
             <p className="section--title">Hey, I'm Chaitanya</p>
@@ -19,7 +19,7 @@ export default function HeroSection() {
               Lorem, ipsum dolor sit amet consectetur adipisicing.
             </p>
           </div>
-          <button className="btn btn-outline-primary">Get in Touch</button>
+          <a href="#contact" className="btn btn-outline-primary">Get in Touch</a>
         </div>
 
         <div className="hero--section--img">

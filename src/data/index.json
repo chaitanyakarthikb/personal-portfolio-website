@@ -1,29 +1,144 @@
 {
-    "skills":[
-        {
-            "id":1,
-            "src":"/images/front-end.png",
-            "title":"Front-end",
-            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
-        },
-        {
-            "id":2,
-            "src":"/images/back-end.png",
-            "title":"Back-end",
-            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
-        },
-        {
-            "id":3,
-            "src":"/images/java.png",
-            "title":"Java",
-            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
-        },
-        {
-            "id":4,
-            "src":"/images/dsa.png",
-            "title":"DSA",
-            "description":"I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
-        }
-    ]
+  "skills": [
+    {
+      "id": 1,
+      "src": "/images/front-end.png",
+      "title": "Front-end",
+      "description": "I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+    },
+    {
+      "id": 2,
+      "src": "/images/back-end.png",
+      "title": "Back-end",
+      "description": "I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+    },
+    {
+      "id": 3,
+      "src": "/images/java.png",
+      "title": "Java",
+      "description": "I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+    },
+    {
+      "id": 4,
+      "src": "/images/dsa.png",
+      "title": "DSA",
+      "description": "I am well versed with front end tecnnologies, how can I do that , do you know what and how to do"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "review": "He is a very nice guy, had the privilege of working with him on several interesting projects.",
+      "author": "Aniket kumar",
+      "designation": "Trainee Software Engineer"
+    },
+    {
+      "id": 2,
+      "review": "Known Chaitanya for quite a time now, with whoever thinking to have him on board, You won't be disappointed.",
+      "author": "Ravi Kumar",
+      "designation": "Engineering Manager"
+    },
+    {
+      "id": 3,
+      "review": "Chaitanya was our senior right from the college, he carries a huge wealth of technical knowledge.",
+      "author": "Nikhil Sharma",
+      "designation": "Software Development Engineer"
+    },
+    {
+      "id": 4,
+      "review": "Chaitanya is an awesome co-worker to have!.",
+      "author": "Priya Shantikumaran",
+      "designation": "Quality Assurance Specialist"
+    },
+    {
+      "id": 5,
+      "review": "Chaitanya is a great team player, always bringing fresh ideas to the table and keeping the team motivated.",
+      "author": "Sanya Verma",
+      "designation": "Project Manager"
+    },
+    {
+      "id": 6,
+      "review": "Had the chance to collaborate with Chaitanya. His work ethic and problem-solving skills are top-notch.",
+      "author": "Vikram Singh",
+      "designation": "Senior Developer"
+    },
+    {
+      "id": 7,
+      "review": "Chaitanya is a highly skilled professional who always delivers quality work on time and with great attention to detail.",
+      "author": "Aditi Mehra",
+      "designation": "Product Manager"
+    },
+    {
+      "id": 8,
+      "review": "Working with Chaitanya has been an absolute pleasure. His technical expertise and team spirit are unmatched.",
+      "author": "Arun Kumar",
+      "designation": "Lead Developer"
+    },
+    {
+      "id": 9,
+      "review": "Chaitanya's ability to break down complex problems and find effective solutions is truly impressive.",
+      "author": "Ritu Sharma",
+      "designation": "Business Analyst"
+    },
+    {
+      "id": 10,
+      "review": "Chaitanya is a dedicated professional who consistently goes above and beyond to achieve project goals.",
+      "author": "Karan Singh",
+      "designation": "Software Engineer"
+    },
+    {
+      "id": 11,
+      "review": "It’s always a pleasure working with Chaitanya. His positive attitude and expertise add great value to any team.",
+      "author": "Amit Patel",
+      "designation": "DevOps Engineer"
+    },
+    {
+      "id": 12,
+      "review": "Chaitanya’s technical skills and creative problem-solving make him an invaluable asset to any team.",
+      "author": "Nina Gupta",
+      "designation": "UI/UX Designer"
+    },
+    {
+      "id": 13,
+      "review": "I had the pleasure of working with Chaitanya on a number of projects. His approach to challenges is both thoughtful and strategic.",
+      "author": "Sandeep Reddy",
+      "designation": "Software Architect"
+    },
+    {
+      "id": 14,
+      "review": "Chaitanya's leadership and technical expertise were instrumental in the success of our recent project.",
+      "author": "Meena Rao",
+      "designation": "Product Owner"
+    },
+    {
+      "id": 15,
+      "review": "Chaitanya brings not only technical knowledge but also a strong work ethic that motivates the entire team.",
+      "author": "Prakash Jain",
+      "designation": "Software Tester"
+    },
+    {
+      "id": 16,
+      "review": "I've worked closely with Chaitanya, and his ability to manage multiple tasks while maintaining quality is remarkable.",
+      "author": "Ravi Verma",
+      "designation": "System Analyst"
+    },
+    {
+      "id": 17,
+      "review": "Chaitanya is an excellent collaborator, always ready to offer support and share his expertise with colleagues.",
+      "author": "Shreya Desai",
+      "designation": "Marketing Strategist"
+    },
+    {
+      "id": 18,
+      "review": "Chaitanya is a true professional with a deep understanding of the technical aspects and a keen eye for detail.",
+      "author": "Rohit Kumar",
+      "designation": "Solutions Engineer"
+    },
+    {
+      "id": 19,
+      "review": "Working alongside Chaitanya has been a great experience. His passion for technology and innovation is contagious.",
+      "author": "Anjali Rao",
+      "designation": "Scrum Master"
+    }
+  ]
 }
-

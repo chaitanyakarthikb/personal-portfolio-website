@@ -155,7 +155,7 @@ h3{
 
 .section--title{
   color: var(--heading-color);
-  font-size: 21px;
+  font-size: 42px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
@@ -238,50 +238,124 @@ h3{
 }
 
 
+/* media queries for hero section */
 
-/* ================================================ Navbar ================================= */
+@media (max-width:1000px) {
+  .hero--section{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 78%;
+  }
 
-.navbar{
-  display: flex;
-  /* background-color: #e68272; */
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
+  .section--title{
+    width: 90%;
+    padding-left: 5px;
+    font-size: 36px;
+  }
 
-li{
-  list-style: none;
+  .hero--section--img{
+    display: none;
+  }
   
 }
 
-a{
-  text-decoration: none;
-  padding-left: 7px;
-  padding-right: 5px;
-  font-weight: 700;
-  /* font-size: 180px; */
-}
 
-.left{
-  /* background-color: aqua; */
-  width: 25%;
-}
-
-.right{
-  /* background-color: burlywood; */
-  width: 50%;
-
+/* ================================================ Navbar ================================= */
+/* General Navbar Style */
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
+  background-color: #333;
+  position: fixed;
+  width: 99%;
 }
 
-#heading{
-  font-size: 30px;
+.container{
+  /* position: fixed; */
 }
+
+.navbar .left h3 {
+  color: white;
+}
+
+.navbar .right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Links Styling */
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #28a745;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none; /* Hide by default */
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  /* Navbar links are hidden on small screens */
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+  }
+
+  /* Show the hamburger menu on small screens */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Show navbar links when active */
+  .navbar-links.active {
+    display: flex;
+  }
+}
+
 
 
 /* ============================================ // Skills Section \\ =========================================== */
@@ -333,10 +407,12 @@ a{
   background-color: var(--bg-shade);
   min-height: 250px;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .skills--section--card:hover{
-  border-bottom: solid 4px var(--primary);
+  /* outline: solid  1px   var(--primary); */
+  box-shadow: 0 4px 0 0 var(--primary);
 }
 
 .skills--section--title{
@@ -353,4 +429,197 @@ a{
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+}
+
+
+
+/* media queries */
+
+
+
+@media (max-width:900px) {
+
+  .skills--section--container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .skills--section--card{
+    width: 85%;
+  }
+
+  .skills--section--heading{
+    font-size: 50px;
+  }
+
+  
+}
+
+
+
+
+/* =================================================== / About Section \ ================================================= */
+
+.about--section--img{
+  /* width: 60%; */
+}
+
+.about--section--img img{
+  width: 100%;
+  height: 100%;
+}
+
+.about--section{
+  display: grid;
+  padding: 133px 85px;
+  align-items: center;
+  gap: 114.6px;
+  grid-template-columns: repeat(2,1fr);
+  background-color: var(--bg-shade);
+  margin-top: 10px;
+}
+
+.portfolio--section{
+  /* background-color: var(--bg-shade); */
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+  
+}
+
+
+@media (max-width:900px) {
+  .about--section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+  }
+  
+}
+
+
+/* =========================================== / Testimonials \ ================================== */
+.portfolio--card{
+  width: 75%;
+  border: solid 2px #006b6a;
+  border-radius: 5px;
+  height: 175px;
+  box-shadow: #006b6a 2px 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* text-align: center; */
+
+  padding: 25px 20px 25px 20px;
+  gap: 10px;
+
+}
+
+
+.portfolio--container--title{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.portfolio--container--box{
+  padding: 133px 85px;
+  background-color: var(--bg-shade);
+}
+
+.portfolio--container--reviews{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  padding-top: 30px;
+}
+
+
+.portfolio--card--content{
+  text-align: left;
+}
+
+
+@media (max-width:900px) {
+
+  .portfolio--container--title{
+    font-size: 22px;
+  }
+
+  .portfolio--container--reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+
+/* ================================================ / Contact - Me \ ===================================== */
+
+.contact--form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.contact--form input,textarea{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact--form textarea{
+  font-family: 'Roboto',sans-serif;
+}
+
+.contact--form textarea::placeholder{
+  font-family: 'Roboto',sans-serif;
+}
+
+.contact--form input{
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+
+}
+.contact--form button{
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
+.contact--section{
+  padding: 133px 85px;
+}
+
+
+@media (max-width:900px) {
+  .contact--form input,textarea{
+    width: 80%;
+  }
+
+  .contact--form button{
+    width: 45%;
+  }
+  
 }
